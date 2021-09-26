@@ -7,15 +7,15 @@ Configuração no package:
     "dev": "electron ."
  },
 
-# Depurar
-
-npm run dev
-
 # Dependências
 
 npm install --save-dev electron
 
 npm install -g electron electron-packager
+
+# Depurar
+
+npm run dev
 
 # Complilar
 
