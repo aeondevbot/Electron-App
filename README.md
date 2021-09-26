@@ -3,7 +3,6 @@
 npm init -y
 
 Configuração no package:
-
 "scripts": {
     "dev": "electron ."
  },
