@@ -21,4 +21,4 @@ npm run dev
 
 cd ../
 
-electron-packager .\nome da pasta\ Nome do aplicativo --platform=win32 --arch=x64 --electron-version=15.0.0
+electron-packager --overwrite .\nome da pasta\ nome do app --platform=win32 --arch=x64 --prune=true --out=release-builds --electron-version=15.0.0 --icon=./nome da pasta/icon.ico
