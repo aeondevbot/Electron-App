@@ -1,3 +1,13 @@
+# Configurar
+
+npm init -y
+
+Configuração no package:
+
+"scripts": {
+    "dev": "electron ."
+ },
+
 # Dependências
 
 npm install --save-dev electron
