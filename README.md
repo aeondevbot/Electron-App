@@ -21,4 +21,4 @@ npm run dev
 
 cd ../
 
-electron-packager .\arca-app\ Arca --platform=win32 --arch=x64 --electron-version=15.0.0
+electron-packager .\nome da pasta\ Nome do aplicativo --platform=win32 --arch=x64 --electron-version=15.0.0
