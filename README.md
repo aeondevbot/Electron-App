@@ -5,8 +5,14 @@ npm init -y
 Configuração no package:
 
 "scripts": {
+
     "dev": "electron ."
- },
+ 
+},
+
+# Depurar
+
+npm run dev
 
 # Dependências
 
