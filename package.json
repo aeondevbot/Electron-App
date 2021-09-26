@@ -1,13 +1,13 @@
 {
-  "name": "arca",
+  "name": "electron-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Modelo de um aplicativo em Electron.",
   "main": "index.js",
   "scripts": {
     "dev": "electron ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Aeon#5249",
   "license": "ISC",
   "devDependencies": {
     "electron": "^15.0.0"
