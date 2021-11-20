@@ -4,7 +4,7 @@ npm init -y
 
 Configuração no package:
 
-"productName": "nome do produto"
+"productName": "Electron App"
 
 "scripts": {
     "dev": "electron .",
