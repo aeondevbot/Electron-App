@@ -41,6 +41,6 @@ npm run dev
 
 npm run build-installer
 
-# observação:
+# Nota:
 
 O arquivo license.txt precisa ter alguma coisa dentro, se não, irá dar erro ou o instalador não irá abrir.
