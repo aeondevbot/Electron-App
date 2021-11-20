@@ -3,35 +3,33 @@
 npm init -y
 
 Configuração no package:
+
 "productName": "nome do produto"
 
 "scripts": {
     "dev": "electron .",
     "build-installer": "electron-builder"
- },
-
-"build": {
-    "appId": "nome do projeto",
+  },
+  "build": {
+    "appId": "electron-app",
     "win": {
-        "target": ["nsis"],
-        "icon": "icon.ico",
-        "requestedExecutionLevel": "requireAdministrator"
-    }
+      "target": ["nsis"],
+      "icon": "icon.ico"
+    },
     "nsis": {
-        "installerIcon": "icon.ico",
-        "unistallerIcon": "icon.ico",
-        "unistallDisplayName": "Nome do produto",
-        "license": "license.txt",
-        "oneClick": false,
-        "allowToChangeInstallAtionDirectory": true
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "uninstallDisplayName": "Electron App",
+      "license": "license.txt",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
     }
- },
+  },
 
 # Dependências
 
 npm install --save-dev electron
-
-npm install -g electron electron-packager
 
 npm install electron-builder --dev
 
@@ -39,12 +37,6 @@ npm install electron-builder --dev
 
 npm run dev
 
-# Complilar (electron-packager)
-
-cd ../
-
-electron-packager --overwrite .\nome da pasta\ nome do app --platform=win32 --arch=x64 --prune=true --out=release-builds --electron-version=15.0.0 --icon=./nome da pasta/icon.ico
-
-# Complilar (electron-builder)
+# Complilar
 
 npm run build-installer
