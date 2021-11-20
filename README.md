@@ -37,6 +37,6 @@ npm install electron-builder --include=dev
 
 npm run dev
 
-# Complilar
+# Criar instalador
 
 npm run build-installer
