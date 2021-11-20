@@ -40,3 +40,7 @@ npm run dev
 # Criar instalador
 
 npm run build-installer
+
+# observação:
+
+O arquivo license.txt precisa ter alguma coisa dentro, se não, irá dar erro ou o instalador não irá abrir.
