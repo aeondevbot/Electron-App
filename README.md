@@ -31,7 +31,7 @@ Configuração no package:
 
 npm install --save-dev electron
 
-npm install electron-builder --dev
+npm install electron-builder --include=dev
 
 # Depurar
 
